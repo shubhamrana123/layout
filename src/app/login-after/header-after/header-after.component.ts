@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-header-after',
   templateUrl: './header-after.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderAfterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
-
+dashboard(){
+this.router.navigate(['dashboard'])
+}
+userList(){
+  this.router.navigate(['userlist'])
+}
 }

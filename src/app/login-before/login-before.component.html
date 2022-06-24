@@ -1,1 +1,22 @@
-<p>login-before works!</p>
+<button (click)="routeToDashboard()">Login</button>
+<div style="height:100px;" class="header">
+    
+    <app-header-before></app-header-before>
+</div>
+<div class="container">
+    <div class="sidebar" style="height:200px;">
+        <app-sidebar-before></app-sidebar-before>
+    </div>
+    
+    <div style="height:80vh;">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
+<div style="height:100px;" class="footer">
+    <app-footer-before></app-footer-before>
+</div>
+
+
+

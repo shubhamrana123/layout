@@ -1,0 +1,17 @@
+.header{
+    height: 20%;
+    width:100%;
+    border:2px solid black;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f1f1f1; */
+    position: fixed;
+    overflow: auto;
+}
+h2,ul{
+    text-align: center;
+}
+a{
+    text-align: center;
+    margin:5px;
+}
